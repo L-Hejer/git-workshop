@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { Comp3 } from "./Components/Comp3";
-
+import Comp1 from "./Components/Comp1";
 function App() {
   return (
     <div className="App">
@@ -20,6 +20,7 @@ function App() {
         </a>
       </header>
       <Comp3 />
+      <Comp1 />
     </div>
   );
 }
